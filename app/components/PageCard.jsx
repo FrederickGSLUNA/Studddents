@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { CATEGORY_ICON_MAP } from '../data/CATEGORY_ICON_MAP'
 
 function PageCard ({ nombre, descripcion, categorias, icono, id }) {
@@ -6,7 +7,7 @@ function PageCard ({ nombre, descripcion, categorias, icono, id }) {
     <Link href={id.toString() || '/'}>
       <div className='relative overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md p-5 h-80 hover:shadow-2xl transition-all'>
         <div className='w-10 mb-2'>
-          <img src={icono} alt={`${nombre} icono`} />
+          <Image width={40} height={40} src={icono} alt={`${nombre} icono`} />
         </div>
         <div>
           <h2 className='text-2xl font-bold'>{nombre}</h2>
