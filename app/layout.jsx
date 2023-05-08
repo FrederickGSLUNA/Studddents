@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout ({ children }) {
   return (
     <html lang='es'>
-      <body className={cx(sfPro.variable, inter.variable)}>
+      <body className={cx(sfPro.variable, inter.variable) + ' overflow-x-hidden'}>
         <div className='fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100 -z-10' />
         <NavBar />
         {children}
