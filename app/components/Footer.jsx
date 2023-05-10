@@ -8,9 +8,9 @@ const Footer = () => {
         <div class='sm:flex sm:items-center sm:justify-between'>
           <Link href='/' class='flex items-center mb-4 sm:mb-0'>
             <Image width={32} height={32} src='/logo.svg' class='h-8 mr-3' alt='Studddents Logo' />
-            <span class='self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>Studddents</span>
+            <span class='self-center text-2xl font-semibold whitespace-nowrap'>Studddents</span>
           </Link>
-          <ul class='flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400'>
+          <ul class='flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0'>
             <li>
               <a href='#' class='mr-4 hover:underline md:mr-6 '>Acerca</a>
             </li>
