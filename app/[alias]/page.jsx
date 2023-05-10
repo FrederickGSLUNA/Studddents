@@ -1,12 +1,23 @@
+'use client'
+
 import { PAGES } from '../data/pages'
 import BodyRecurso from '../components/BodyRecurso'
 import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Recurso ({ params }) {
-  const { id } = params
+  const { alias } = params
 
-  const recurso = PAGES[id]
+  function buscarPagina (alias, pages) {
+    for (let i = 0; i < pages.length; i++) {
+      if (pages[i].alias === alias) {
+        return pages[i]
+      }
+    }
+    return null
+  }
+
+  const recurso = buscarPagina(alias, PAGES)
 
   return (
     <section className='pt-20 min-h-screen md:pt-16'>

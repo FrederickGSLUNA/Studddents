@@ -3,6 +3,7 @@ export const PAGES = [
   {
     id: 0,
     nombre: 'ChatGPT',
+    alias: 'chatgpt',
     descripcion: 'ChatGPT es un modelo de lenguaje de inteligencia artificial que puede ayudarte a obtener respuestas, recomendaciones y tener conversaciones.',
     categorias: ['Inteligencia Artificial', 'Programación', 'Investigación'],
     articulo: `
