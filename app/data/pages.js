@@ -144,5 +144,50 @@ export const PAGES = [
     `,
     icono: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Photopea_logo.svg/800px-Photopea_logo.svg.png',
     link: 'https://www.photopea.com/'
+  },
+  {
+    nombre: 'DALL·E 2',
+    alias: 'dalle-2',
+    descripcion: 'DALL·E 2 es un sistema de IA que puede crear imágenes y arte realistas a partir de una descripción en lenguaje natural.',
+    categorias: ['Inteligencia Artificial', 'Diseño', 'Edición'],
+    articulo: `
+    DALL·E 2 es un avanzado sistema de inteligencia artificial desarrollado por la empresa OpenAI, el cual tiene la capacidad de generar imágenes y obras de arte complejas a partir de una descripción en lenguaje natural. DALL·E 2 utiliza la tecnología de redes neuronales profundas y ha sido entrenado con millones de imágenes y texto, lo que le permite generar nuevas imágenes y escenas que nunca antes habían sido vistas. 
+    
+    Este sistema es capaz de crear imágenes de alta calidad, con detalles precisos y realistas, que pueden representar objetos, animales, personas, paisajes y mucho más. Además, DALL·E 2 tiene la capacidad de entender el contexto de la descripción dada y crear imágenes en función de ello, lo que lo convierte en una herramienta poderosa para la generación de contenido visual y artístico de alta calidad.
+    `,
+    icono: 'https://seeklogo.com/images/O/open-ai-logo-8B9BFEDC26-seeklogo.com.png',
+    link: 'https://labs.openai.com/'
+  },
+  {
+    nombre: 'VirusTotal',
+    alias: 'virustotal',
+    descripcion: 'VirusTotal es un servicio de análisis de archivos en línea que permite a los usuarios cargar y escanear archivos en busca de malware y virus utilizando más de 70 motores antivirus diferentes.',
+    categorias: ['Programación', 'Utilidades'],
+    articulo: `
+    VirusTotal es una plataforma gratuita en línea que proporciona servicios de análisis de archivos y direcciones URL para detectar malware y otras amenazas a la seguridad. Utiliza una variedad de motores antivirus y herramientas de análisis de malware para escanear archivos y sitios web en busca de signos de infección o actividad maliciosa.
+
+    Los usuarios pueden enviar archivos o direcciones URL para ser escaneados, y recibirán un informe detallado sobre cualquier amenaza potencial detectada por los motores antivirus y las herramientas de análisis de malware de VirusTotal. Los informes también proporcionan información sobre la familia de malware, las características del archivo, la detección anterior y otras estadísticas.
+
+    Además de sus servicios de análisis de archivos y URL, VirusTotal también ofrece una API para que los desarrolladores integren los servicios de VirusTotal en sus propias aplicaciones y herramientas. También cuenta con una comunidad activa de usuarios que comparten información y discuten temas relacionados con la seguridad informática. En general, VirusTotal es una herramienta valiosa para la detección y prevención de malware y otras amenazas de seguridad en línea.
+    `,
+    icono: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/virustotal_logo_icon_171247.png',
+    link: 'https://www.virustotal.com/gui/home/upload'
+  },
+  {
+    nombre: 'Tome',
+    alias: 'tome',
+    descripcion: 'Utilice la inteligencia artificial para generar narraciones completas, transformar sus documentos en presentaciones o agregar páginas adicionales en segundos.',
+    categorias: ['Programación', 'Utilidades'],
+    articulo: `
+    Imagina una plataforma en línea que te permita crear diapositivas increíbles para tus presentaciones de negocios o académicas con inteligencia artificial. En esta plataforma, solo tendrás que escribir el contenido de tus diapositivas en un editor de texto simple, y la IA se encargará de crear diseños hermosos y atractivos que complementen tu contenido.
+
+    La plataforma utiliza algoritmos de aprendizaje automático para analizar el texto que proporcionas y seleccionar las imágenes, gráficos y colores que mejor se adapten a él. También puede agregar animaciones y transiciones para hacer que tu presentación sea más dinámica e interesante.
+
+    Además, esta plataforma te permite personalizar los diseños generados por la IA para que se ajusten a tus necesidades específicas. Puedes cambiar los colores, las imágenes y los estilos de fuente, o incluso cargar tus propias imágenes y diseños personalizados.
+
+    En resumen, esta plataforma con inteligencia artificial hace que crear presentaciones atractivas y efectivas sea rápido, fácil y accesible para cualquier persona, independientemente de su nivel de habilidad en diseño gráfico.
+    `,
+    icono: 'https://tome.imgix.net/orgLogos/cl02zkp8r1683154j6zrkbh8sgy/bd81ecda-efb3-45a7-8563-69e1122ce5cf.svg',
+    link: 'https://tome.app/'
   }
 ]
