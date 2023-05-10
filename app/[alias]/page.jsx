@@ -1,5 +1,3 @@
-'use client'
-
 import { PAGES } from '../data/pages'
 import BodyRecurso from '../components/BodyRecurso'
 import Link from 'next/link'
