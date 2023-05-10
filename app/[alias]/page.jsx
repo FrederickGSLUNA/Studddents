@@ -4,6 +4,7 @@ import { PAGES } from '../data/pages'
 import BodyRecurso from '../components/BodyRecurso'
 import Link from 'next/link'
 import Image from 'next/image'
+import { redirect } from 'next/navigation'
 
 export default function Recurso ({ params }) {
   const { alias } = params
@@ -14,7 +15,7 @@ export default function Recurso ({ params }) {
         return pages[i]
       }
     }
-    return null
+    redirect('/')
   }
 
   const recurso = buscarPagina(alias, PAGES)
